@@ -1,0 +1,320 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  1 08:51:40 2023
+# Process ID: 6340
+# Current directory: D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.runs/synth_1
+# Command line: vivado.exe -log Reg_Bank.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Reg_Bank.tcl
+# Log file: D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.runs/synth_1/Reg_Bank.vds
+# Journal file: D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Reg_Bank.tcl -notrace
+Command: synth_design -top Reg_Bank -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13840 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 434.656 ; gain = 94.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Reg_Bank' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:50]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decode_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_1' of component 'Decoder_3_to_8' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decode_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decode_3_to_8.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (1#1) [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decode_3_to_8.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (2#1) [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Decode_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_0' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:45]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:34' bound to instance 'D_FF0' of component 'D_FF' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (3#1) [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:34' bound to instance 'D_FF1' of component 'D_FF' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:72]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:34' bound to instance 'D_FF2' of component 'D_FF' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:79]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:34' bound to instance 'D_FF3' of component 'D_FF' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'Reg_4' (4#1) [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:45]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_1' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:89]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_2' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:98]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_3' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:107]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_4' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:116]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_5' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:125]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_6' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:134]
+INFO: [Synth 8-3491] module 'Reg_4' declared at 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_4.vhd:37' bound to instance 'Reg_4_7' of component 'Reg_4' [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'Reg_Bank' (5#1) [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd:50]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 490.223 ; gain = 150.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 490.223 ; gain = 150.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 490.223 ; gain = 150.094
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 490.223 ; gain = 150.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_0/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_0/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_0/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_0/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_1/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_1/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_1/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_1/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_2/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_2/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_2/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_2/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_3/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_3/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_3/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_3/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_4/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_4/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_4/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_4/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_5/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_5/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_5/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_5/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_6/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_6/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_6/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_6/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_7/D_FF0/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_7/D_FF1/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_7/D_FF2/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element Reg_4_7/D_FF3/Qbar_reg was removed.  [D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/D_FF.vhd:51]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 618.898 ; gain = 278.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 618.898 ; gain = 278.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT4 |    32|
+|3     |FDRE |    32|
+|4     |IBUF |     9|
+|5     |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------+--------+------+
+|      |Instance  |Module  |Cells |
++------+----------+--------+------+
+|1     |top       |        |   106|
+|2     |  Reg_4_0 |Reg_4   |     8|
+|3     |    D_FF0 |D_FF_34 |     2|
+|4     |    D_FF1 |D_FF_35 |     2|
+|5     |    D_FF2 |D_FF_36 |     2|
+|6     |    D_FF3 |D_FF_37 |     2|
+|7     |  Reg_4_1 |Reg_4_0 |     8|
+|8     |    D_FF0 |D_FF_30 |     2|
+|9     |    D_FF1 |D_FF_31 |     2|
+|10    |    D_FF2 |D_FF_32 |     2|
+|11    |    D_FF3 |D_FF_33 |     2|
+|12    |  Reg_4_2 |Reg_4_1 |     8|
+|13    |    D_FF0 |D_FF_26 |     2|
+|14    |    D_FF1 |D_FF_27 |     2|
+|15    |    D_FF2 |D_FF_28 |     2|
+|16    |    D_FF3 |D_FF_29 |     2|
+|17    |  Reg_4_3 |Reg_4_2 |     8|
+|18    |    D_FF0 |D_FF_22 |     2|
+|19    |    D_FF1 |D_FF_23 |     2|
+|20    |    D_FF2 |D_FF_24 |     2|
+|21    |    D_FF3 |D_FF_25 |     2|
+|22    |  Reg_4_4 |Reg_4_3 |     8|
+|23    |    D_FF0 |D_FF_18 |     2|
+|24    |    D_FF1 |D_FF_19 |     2|
+|25    |    D_FF2 |D_FF_20 |     2|
+|26    |    D_FF3 |D_FF_21 |     2|
+|27    |  Reg_4_5 |Reg_4_4 |     8|
+|28    |    D_FF0 |D_FF_14 |     2|
+|29    |    D_FF1 |D_FF_15 |     2|
+|30    |    D_FF2 |D_FF_16 |     2|
+|31    |    D_FF3 |D_FF_17 |     2|
+|32    |  Reg_4_6 |Reg_4_5 |     8|
+|33    |    D_FF0 |D_FF_10 |     2|
+|34    |    D_FF1 |D_FF_11 |     2|
+|35    |    D_FF2 |D_FF_12 |     2|
+|36    |    D_FF3 |D_FF_13 |     2|
+|37    |  Reg_4_7 |Reg_4_6 |     8|
+|38    |    D_FF0 |D_FF    |     2|
+|39    |    D_FF1 |D_FF_7  |     2|
+|40    |    D_FF2 |D_FF_8  |     2|
+|41    |    D_FF3 |D_FF_9  |     2|
++------+----------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 618.953 ; gain = 278.824
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 728.809 ; gain = 400.586
+INFO: [Common 17-1381] The checkpoint 'D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.runs/synth_1/Reg_Bank.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Reg_Bank_utilization_synth.rpt -pb Reg_Bank_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 728.809 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 08:52:00 2023...

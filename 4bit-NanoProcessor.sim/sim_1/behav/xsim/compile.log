@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sources_1/new/Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/UOM/Semester 2/Computer Organization and Digital Design/Labs/Lab9/4bit-NanoProcessor/4bit-NanoProcessor.srcs/sim_1/new/TB_Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Reg_Bank
